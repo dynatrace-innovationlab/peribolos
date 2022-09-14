@@ -3,6 +3,7 @@ module peribolos
 go 1.18
 
 require (
+	github.com/google/go-cmp v0.5.8
 	github.com/sirupsen/logrus v1.9.0
 	k8s.io/apimachinery v0.24.2
 	k8s.io/test-infra v0.0.0-20220914032507-358f0ed27a0b
@@ -53,7 +54,6 @@ require (
 	github.com/gomodule/redigo v1.8.5 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/go-containerregistry v0.8.1-0.20220216220642-00c59d91847c // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.1-0.20210504230335-f78f29fc09ea // indirect
