@@ -170,7 +170,7 @@ This flag is designed to protect against typos in the configuration which might 
 * `--confirm=false` - no github mutations will be made until this flag is true. It is safe to run the binary without this flag. It will print what it would do, without actually making any changes.
 
 
-See `go run ./prow/cmd/peribolos --help` for the full and current list of settings that can be configured with flags.
+See `go run ./prow/cmd/peribolos --help` for the full and current list of settings, that can be configured with flags.
 
 
 
